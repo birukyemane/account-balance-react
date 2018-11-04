@@ -1,0 +1,108 @@
+
+/* general styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:80%;
+    margin :0 auto;
+    display: flex;
+    flex-direction: column;
+    background: silver;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+/* account info section*/
+
+    #accountInfo{
+        width: 100%;
+        text-align: center;
+    }
+
+    #name{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #mainTitle{
+        color: darkcyan;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    #accountSummaryTitle{
+        font-size: 20px;
+        color: darkblue;
+    }
+
+    #balanceInfo{
+        border: 1px solid grey;
+        padding: 20px;
+    }
+
+/* transactions section styles*/
+
+#transactions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* input elements ,select and button styles*/
+
+#addtransaction{
+    display: flex;
+    justify-content: center;
+}
+
+input, #addButton, select {
+    margin-right: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+/* income and expenses transactions section*/
+
+#summaryCointainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#incomeSummary, #expenseSummary{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.summaryTitles{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* each income or expense transaction style*/
+#transactionInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactionDetail{
+    width:30%;
+    font-size: 18px;
+}
+
+.amount {
+    text-align: right;
+    margin-right: 90px;
+}
+
+.transactionTitle {
+    font-weight: bold;
+}
