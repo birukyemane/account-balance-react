@@ -42,17 +42,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-       <div id="addtransaction">
-          <input type="text" id="description" placeholder="description" onChange={this.descriptionInput}/>
-          <input type="number" min="0" id="amount" placeholder="amount" onChange={this.amountInput}/> 
-          <select name="transactionType" id="transactionType" onChange={this.transTypeInput}>
-              <option>Expense</option>
-              <option>Income</option>
-          </select>
-          <button id="addButton" onClick={this.add}>Add</button>
-        </div>
-        
+      <div>        
         <div id="accountInfo">
           <AccountInfo firstName={this.state.firstName} lastName={this.state.lastName} incomes= {this.state.incomes} expenses= {this.state.expenses}/>
         </div>
