@@ -7,8 +7,6 @@
 }
 
 body{
-    width:80%;
-    margin :0 auto;
     display: flex;
     flex-direction: column;
     background: silver;
@@ -18,6 +16,18 @@ div {
     margin-bottom: 10px;
 }
 
+/* themes */
+
+.blue-background {
+    background: blue;
+    color: white;
+}
+
+.white-background {
+    background: white;
+    color: black;
+}
+
 /* account info section*/
 
     #accountInfo{
@@ -25,25 +35,23 @@ div {
         text-align: center;
     }
 
-    #name{
+    .name{
         font-size: 18px;
-        font-weight: bold;
     }
 
-    #mainTitle{
-        color: darkcyan;
+    .mainTitle{
         margin-bottom: 20px;
         font-size: 35px;
+        padding: 30px;
     }
 
-    #accountSummaryTitle{
+    .balance {
         font-size: 20px;
-        color: darkblue;
     }
 
-    #balanceInfo{
-        border: 1px solid grey;
-        padding: 20px;
+    .balanceInfo{
+        padding: 25px;
+
     }
 
 /* transactions section styles*/
@@ -61,13 +69,14 @@ div {
     justify-content: center;
 }
 
-input, #addButton, select {
+input, button, select {
     margin-right: 5px;
-    font-size: 18px;
-    padding: 5px;
+    font-size: 17px;
 }
 
-
+button {
+    padding: 0 15px;
+}
 /* income and expenses transactions section*/
 
 #summaryCointainer {
@@ -76,9 +85,10 @@ input, #addButton, select {
     justify-content: space-between;
 }
 
-#incomeSummary, #expenseSummary{
+.transactions-list{
     flex: 1;
     margin-left: 10px;
+    height: 300px;
 }
 
 .summaryTitles{
