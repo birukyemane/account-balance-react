@@ -1,9 +1,11 @@
 ## Account balance 
 
 # Features 
-    * Add income and expense transactions
-    * Calculate the balance
+   
+    * Calculate total incomes , total expenses and net balance
     * Show account info 
+    * Add income and expense transaction
+    * Edit and delete individual transaction
 
 # Technologies 
     * React.js
