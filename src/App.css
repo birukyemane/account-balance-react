@@ -8,13 +8,11 @@
 body{
     display: flex;
     flex-direction: column;
-    background: silver;
 }
 
-div {
-    margin-bottom: 10px;
+.padding-space {
+    padding: 20px;
 }
-
 /* themes */
 
 .blue-background {
@@ -27,67 +25,71 @@ div {
     color: black;
 }
 
-/* account info section*/
-
-    #accountInfo{
-        width: 100%;
-        text-align: center;
-    }
-
-    .name{
-        font-size: 18px;
-    }
-
-    .mainTitle{
-        margin-bottom: 20px;
-        font-size: 35px;
-        padding: 30px;
-    }
-
-    .balance {
-        font-size: 20px;
-    }
-
-    .balanceInfo{
-        padding: 25px;
-
-    }
-
-/* transactions section styles*/
-
-#transactions {
-    display: flex;
-    flex-direction: column;
+/* modules*/
+.accountInfo{
     width: 100%;
+    text-align: center;
+}
+
+.name{
+    font-size: 18px;
+}
+
+.mainTitle{
+    font-size: 35px;
+    padding: 15px;
+    text-align: center;
+}
+
+.balance {
+    font-size: 20px;
+}
+
+footer {
+    background: silver;
+    text-align:  center;
 }
 
 /* input elements ,select and button styles*/
 
-#addtransaction{
+.addtransaction{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
-input, button, select {
-    margin-right: 5px;
+.transaction-input {
+    margin-right: 10px;
     font-size: 17px;
+    text-align: center;
 }
 
-button {
-    padding: 0 15px;
+.add-button {
+    padding: 5px 30px;
+    margin-top: 10px;
+    background: orange;
+    color: white;
+    border: none;
 }
+
 /* income and expenses transactions section*/
 
-#summaryCointainer {
+.transactions-cointainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 15px;
 }
 
+.transactions-summary {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
 .transactions-list{
-    flex: 1;
-    margin-left: 10px;
-    height: 300px;
+    height: 320px;
+    overflow: scroll;
 }
 
 .summaryTitles{
@@ -95,11 +97,10 @@ button {
     margin-bottom: 10px;
 }
 
-
 /* each income or expense transaction style*/
-#transactionInfo{
+
+.transactionInfo{
     display: flex;
-    justify-content: space-between;
 }
 
 .transactionDetail{
@@ -107,9 +108,9 @@ button {
     font-size: 18px;
 }
 
-.amount {
-    text-align: right;
-    margin-right: 90px;
+.edit-buttons {
+    width:15%;
+    font-size: 15px;
 }
 
 .transactionTitle {
