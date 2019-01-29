@@ -1,6 +1,6 @@
 ## Account balance 
 
-    check it [live!](https://distracted-lewin-f0eaa4.netlify.com/)
+    check it [live](https://www.google.com)
 
 # Features 
    
