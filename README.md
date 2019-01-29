@@ -1,6 +1,6 @@
 ## Account balance 
 
-   check it[live!](http://google.com)
+   check it [live!](http://google.com)
 
 # Features 
    
