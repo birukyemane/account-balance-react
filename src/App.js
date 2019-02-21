@@ -72,6 +72,7 @@ class App extends Component {
     else {
       this.addExpense(id,description,amount,time);
     }    
+    this.setState({description:''});
   } 
 
   delete = (index, transType) => {
@@ -134,7 +135,7 @@ class App extends Component {
         </div>
         <div className="addtransaction">
           <div >
-          <input className="transaction-input" type="text" placeholder="description" onChange={this.descriptionInput}/>
+          <input className="transaction-input" type="text" placeholder="description"  value={this.state.description} onChange={this.descriptionInput}/>
           <input className="transaction-input" type="number" min="0" placeholder="amount" onChange={this.amountInput}/> 
           <select className="transaction-input" onChange={this.transTypeInput}>
               <option>Expense</option>

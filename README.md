@@ -12,4 +12,4 @@
 # Technologies 
     * React.js
     * JavaScript
-    * HTML5 and CSS
+    * HTML5 and CSS 
