@@ -20,6 +20,11 @@ body{
     color: white;
 }
 
+.green-background {
+    background: green;
+    color: white;
+}
+
 .white-background {
     background: white;
     color: black;
