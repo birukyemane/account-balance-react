@@ -1,3 +1,4 @@
+// main app component
 import React, { Component } from 'react';
 import './App.css';
 import './components/AccountInfo';
