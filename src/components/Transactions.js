@@ -7,7 +7,7 @@ const Transactions = (props) => {
     let displayTransactions = transactions.map((transaction,index) =>{
         return <Transaction key={transaction.id} transType={props.transType} index={index} transaction={transaction} delete={props.delete} save={props.save}/>;});
     return (
-        <div className="transactions-summary">
+        <div className="transactions-summary"> 
             <h3 className="summaryTitles blue-background">{props.transType}</h3>  
             <div className="transactionInfo"> 
                 <div className="transactionDetail transactionTitle">Description</div> 
