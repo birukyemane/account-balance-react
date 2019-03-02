@@ -142,7 +142,7 @@ class App extends Component {
               <option>Expense</option>
               <option>Income</option>
           </select> <br/>
-          </div>
+          </div> 
           <button className="transaction-input add-button" onClick={this.add}>Add transaction</button>
         </div>      
         <div className="transactions-cointainer">
