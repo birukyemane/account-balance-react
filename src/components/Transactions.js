@@ -15,7 +15,7 @@ const Transactions = (props) => {
                 <div className="transactionDetail transactionTitle">Time</div> 
             </div> 
             <div className="transactions-list">                
-            {displayTransactions}
+            {displayTransactions} 
             </div>
             <h3 className="summaryTitles green-background ">Total: {props.total}</h3> 
         </div>
