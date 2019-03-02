@@ -3,7 +3,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-class Transaction extends React.Component  {
+class Transaction extends React.Component  { 
 
     constructor(props) {
         super(props);
