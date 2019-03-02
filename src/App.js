@@ -127,7 +127,7 @@ class App extends Component {
     return today;
   }
 
-  render() {
+  render() { 
     return (
       <div className="main-container white-background"> 
         <h2 className="mainTitle blue-background">Personal Account</h2>               
