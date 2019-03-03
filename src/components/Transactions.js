@@ -2,7 +2,7 @@
 import React from 'react';
 import Transaction from './Transaction'
 
-const Transactions = (props) => {
+const Transactions = (props) => { 
     const {transactions} = props;
     let displayTransactions = transactions.map((transaction,index) =>{
         return <Transaction key={transaction.id} transType={props.transType} index={index} transaction={transaction} delete={props.delete} save={props.save}/>;});
