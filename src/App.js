@@ -133,7 +133,7 @@ class App extends Component {
         <h2 className="mainTitle blue-background">Personal Account</h2>               
         <div className="accountInfo padding-space">
           <AccountInfo firstName={this.state.firstName} lastName={this.state.lastName} balance={this.balance()}/>
-        </div>
+        </div> 
         <div className="addtransaction">
           <div >
           <input className="transaction-input" type="text" placeholder="description"  value={this.state.description} onChange={this.descriptionInput}/>
