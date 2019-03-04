@@ -151,7 +151,7 @@ class App extends Component {
         </div>
         <footer className="padding-space">Manage your finanaces</footer>
       </div>
-    );  
+    );   
   }
   
 } 
