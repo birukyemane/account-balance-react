@@ -148,7 +148,7 @@ class App extends Component {
         <div className="transactions-cointainer">
             <Transactions transType = {'Incomes'} transactions={this.state.incomes} total={this.totalIncome()} delete={this.delete} save={this.save}/>
             <Transactions transType = {'Expenses'} transactions={this.state.expenses} total={this.totalExpense()} delete={this.delete} save={this.save}/>
-        </div>
+        </div> 
         <footer className="padding-space">Manage your finanaces</footer>
       </div>
     );   
