@@ -1,4 +1,4 @@
-// lists transactions. its the column of either incomes or expenses 
+// lists transactions. its the column of either incomes or expenses   
 import React from 'react';
 import Transaction from './Transaction'
 
