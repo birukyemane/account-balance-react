@@ -1,5 +1,6 @@
 // handles one transaction item. that is the row in the list of transactions. it can be income
 // or expense transaction 
+
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
