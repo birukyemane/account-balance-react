@@ -13,7 +13,7 @@ class Transaction extends React.Component  {
         };
         this.description = this.props.transaction.description;
         this.amount = this.props.transaction.amount;
-    }
+    } 
 
     descriptionInput = (e) => {
         this.description = e.target.value;
