@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class Transaction extends React.Component  { 
 
     constructor(props) {
-        super(props);
+        super(props); 
         this.state = {
             editMode : false
         };
